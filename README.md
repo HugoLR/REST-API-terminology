@@ -72,27 +72,27 @@ Write what are their meaning.
 |Group|Description              |
 |-----|-------------------------|
 |1XX  | Information responses   |
-|2XX| | Successful  responses   |
-|3XX| | Redirection messages    |
-|4XX| | Client error responses  |
-|5XX| | Server error responses  |
+|2XX  | Successful  responses   |
+|3XX  | Redirection messages    |
+|4XX  |  Client error responses |
+|5XX  | Server error responses  |
 
 **8. HTTP Status Codes and Their Related Interpretation**
 
 There are the most common status codes in HTTP responses. Please, fill with the required description.
 
-|Status Code|Meaning                      |
-|-----------|-----------------------------|
-|200|       |      OK                     |
-|201|       |       Created               |
-|204|       | 			No Content            |
-|301|       |       Moved Permanently     |
-|400|       |       Bad Request           |
-|401|       |       Unauthorized          |
-|403|       |       Forbidden             |
-|404|       |       Not Found             |
-|405|       |       Method Not Allowed    |
-|500|       |       Internal Server error |
+|Status Code|Meaning                     |
+|----------|-----------------------------|
+|200       |      OK                     |
+|201       |       Created               |
+|204       | 			No Content             |
+|301       |       Moved Permanently     |
+|400       |       Bad Request           |
+|401       |       Unauthorized          |
+|403       |       Forbidden             |
+|404       |       Not Found             |
+|405       |       Method Not Allowed    |
+|500       |       Internal Server error |
 
 ###### [To see the full list of HTTP status codes and their   meaning, please refer to the RFC of HTTP 1.1](http://tools.ietf.org/html/rfc7231#section-6)
 
@@ -116,7 +116,7 @@ Bad example, need to be descriptive
 
 To solve this problem, you can apply the REST style to the endpoints, and thanks to HTTP, you also have verbs to indicate actions.
 
-|Old Style|REST Style                                  |
+|Old Style                 |REST Style                 |
 |------------------------------------------------------|
 |`/getAllBooks`            |   GET/ books              |   
 |`/submitNewBook`          |   POST/ books             |
