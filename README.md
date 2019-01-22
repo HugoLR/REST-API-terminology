@@ -117,7 +117,7 @@ Bad example, need to be descriptive
 To solve this problem, you can apply the REST style to the endpoints, and thanks to HTTP, you also have verbs to indicate actions.
 
 |Old Style                 |REST Style                 |
-|------------------------------------------------------|
+|--------------------------|---------------------------|
 |`/getAllBooks`            |   GET/ books              |   
 |`/submitNewBook`          |   POST/ books             |
 |`/updateAuthor`           |   PUT/ authors/:id        |
