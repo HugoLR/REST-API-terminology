@@ -83,7 +83,9 @@ There are the most common status codes in HTTP responses. Please, fill with the 
 
 |Status Code|Meaning|
 |-----------|-------|
-|200| |       OK
+|200| |       
+
+OK
 |201| |       Created
 |204| | 			No Content
 |301| |       Moved Permanently
@@ -93,7 +95,6 @@ There are the most common status codes in HTTP responses. Please, fill with the 
 |404| |       Not Found
 |405| |       Method Not Allowed
 |500| |       Internal Server error
-
 ###### [To see the full list of HTTP status codes and their   meaning, please refer to the RFC of HTTP 1.1](http://tools.ietf.org/html/rfc7231#section-6)
 
 **9. How are called the points of contact between all client apps and the API?**
@@ -148,7 +149,7 @@ According to the responded request, answer what does it mean the next parts from
 + _`Status`_.
     La respuesta dependiendo de si la peticion fue exitosa
 + _`Date`_.
-    La fecha en que se hizo la peticion 
+    La fecha en que se hizo la peticion
 + _`Content-Length`_.
     Longitud del contenido
 
